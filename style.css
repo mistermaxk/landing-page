@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p,
+.header li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
