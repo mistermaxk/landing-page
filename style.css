@@ -12,10 +12,59 @@ body {
     background-color: #1F2937;
 }
 
+.header,
+.footer {
+    padding: 8px 96px;
+}
+
+.hero,
+.info,
+.quote,
+.call-to-action {
+    padding: 64px 96px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 0;
+}
+
+.hero p {
+    margin: 4px 0 8px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 24px;
+    border-style: none;
+    border-radius: 6px;
+    color: #F9FAF8;
+    font-weight: 700;
 }
 
 .hero p,
@@ -42,5 +91,18 @@ body {
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: 300;
+    font-style: italic;
     color: #1F2937;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 24px 0;
 }
