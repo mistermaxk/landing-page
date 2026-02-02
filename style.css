@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+* {
+    margin: 0;
+}
+
 body {
     height: 100vh;
-    margin: 0;
     font-family: "Roboto", sans-serif;
 }
 
@@ -18,9 +22,7 @@ body {
 }
 
 .hero,
-.info,
-.quote,
-.call-to-action {
+.info {
     padding: 64px 96px;
 }
 
@@ -28,6 +30,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 16px;
 }
 
 .header ul {
@@ -42,17 +45,18 @@ body {
     gap: 24px;
 }
 
-
-
 .hero h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
-    margin: 0;
 }
 
 .hero p {
     margin: 4px 0 8px;
+}
+
+.hero img {
+    border-radius: 8px;
 }
 
 button {
@@ -75,14 +79,11 @@ button {
     color: #F9FAF8;
 }
 
-.call-to-action {
-    background-color: #3882F6;
-}
-
 .info h2 {
     font-size: 36px;
     color: #1F2937;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .cards {
@@ -106,6 +107,8 @@ button {
 .card p {
     text-align: center;
     font-size: 10px;
+    font-weight: 100;
+    line-height: 14px;
 }
 
 .quote {
@@ -114,8 +117,31 @@ button {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding: 96px 148px;
+}
+
+.quote-source {
+    font-size: 18px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.callout {
+    background-color: #3882F6;
+    padding: 32px 64px;
+    margin: 64px 96px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.callout h3 {
+    font-size: 24px;
+}
+
+.callout button {
+    border: 1px solid white;
 }
 
 .footer {
