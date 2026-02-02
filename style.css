@@ -85,6 +85,30 @@ button {
 .info h2 {
     font-size: 36px;
     color: #1F2937;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 1 100px;
+}
+
+.card img {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 10px;
 }
 
 .quote {
